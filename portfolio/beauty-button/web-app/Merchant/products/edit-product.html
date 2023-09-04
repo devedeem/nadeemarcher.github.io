@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+    <title>Edit Product</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/product.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="img-bg">
+    <header>
+        <nav class="u-main-nav white-bg">
+            <div class="u-nav-container">
+                <!-- hamburger-active -->
+                <a href="../pages/menu.html">
+                    <div class="">
+                        <div class="merchant-hamburger merchant-hamburger-rotate"></div>
+                    </div>
+                </a>
+            </div>
+            <a href="" class="u-nav-brand"><img src="../imgs/logo.png" alt=""></a>
+
+            <button type="" class="button btn-add-photo u-text-upper"><img src="../icons/cam-icon.png" alt=""><span class="btn-title">Upload Photo</span></button>
+            <button type="" class="button btn-create-booking u-text-upper"><img src="../icons/add.png" alt=""><span class="btn-title">Create Booking</span></button>
+        </nav>
+    </header>
+    <div class="u-container-lg pb-lg-4">
+        <div class="merchant-container">
+            <div class="page-header">
+                <span type="" class="back-button"></span>
+                <h1 class="page-heading u-text-upper">Edit Product</h1>
+                </span>
+            </div>
+            <div class="add-new-product mr-auto ml-auto">
+
+                <div class="row col-md-9 ml-auto mr-auto">
+                    <div class="col-4 p-0">
+                        <div class="upload-logo-prod overflow-hidden">
+                            <img src="../imgs/bottle-product.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4 p-0">
+                        <div class="upload-logo-prod overflow-hidden">
+                            <img src="../imgs/bottle-product.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4 p-0">
+                        <div class="upload-logo-prod overflow-hidden">
+                            <img src="../imgs/bottle-product.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <input type="file" id="file" hidden="" multiple="true">
+                        <label for="file" class="button next-button prod">Upload Photos</label>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="pt-5 col-11 mr-auto ml-auto">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="title">TITLE</label>
+                                <input type="text" id="title" class="u-form-control border-radius-14" placeholder="Your product title…">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="beand">BRAND</label>
+                                <input type="text" id="beand" class="u-form-control border-radius-14" placeholder="Your brand name…">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="product_code">PRODUCT CODE</label>
+                                    <input type="text" id="product_code" class="u-form-control border-radius-14" placeholder="Your product code…">
+                                </div>
+                                <div class="form-group position-relative">
+                                    <label for="cost">COST</label>
+                                    <input type="text" id="cost" class="u-form-control pform border-radius-14" placeholder="Your product cost…">
+                                    <select class="u-form-control produ text-align-center">
+                                    <option value="Assistant Manager">AED</option>
+                                    <option value="Assistant Manager">USD</option>
+                                    <option value="Assistant Manager">EUO</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="message">DESCRIPTION</label>
+                                    <textarea rows="5" colums="" id="message" class="u-form-control border-radius-14" placeholder="Describe your business…"></textarea>
+                                    <p class="word-counter">0/140</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notification-manager">
+                        <h1 class="heading prod">For Sale</h1>
+                        <span class="toggle-check active"></span>
+                    </div>
+                    <div class="notification-manager">
+                        <h1 class="heading prod">Stock Control</h1>
+                        <span class="toggle-check active"></span>
+                    </div>
+                    <div class="row col-11 mr-auto ml-auto">
+                        <div class="col-6 col-sm-3">
+                            <div class="form-group">
+                                <label for="beand">Supplier</label>
+                                <input type="text" id="beand" class="u-form-control border-radius-14" placeholder="Supplier">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="form-group">
+                                <label for="beand">STOCK QTY</label>
+                                <input type="text" id="beand" class="u-form-control border-radius-14" placeholder="STOCK QTY">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="form-group">
+                                <label for="beand">RE-ORDER QTY</label>
+                                <input type="text" id="beand" class="u-form-control border-radius-14" placeholder="RE-ORDER QTY">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="form-group">
+                                <label for="beand">ORDER WHEN</label>
+                                <input type="text" id="beand" class="u-form-control border-radius-14" placeholder="ORDER WHEN">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notification-manager">
+                        <h1 class="heading prod">GST</h1>
+                        <span class="toggle-check active"></span>
+                    </div>
+                    <div class="form-group pl-5 pr-5">
+                        <label for="amount">AMOUNT</label>
+                        <input type="text" id="amount" class="u-form-control border-radius-14" placeholder="Your Amount…">
+                    </div>
+                    <div class="line"></div>
+                    <div class="text-center pb-4 pt-4">
+                        <button type="submit" class="button next-button">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

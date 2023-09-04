@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Therapist</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg" />
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" /> -->
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="section-indicators u-main-nav">
+            <div class="u-nav-container">
+                <!-- hamburger-active -->
+                <div class="">
+                    <div class="merchant-hamburger merchant-hamburger-rotate"></div>
+                </div>
+            </div>
+            <a href="" class="u-nav-brand"><img src="../imgs/logo.png" alt="" /></a>
+        </nav>
+    </header>
+    <!-- indicators -->
+    <div class="section-indicators flex-cont">
+        <div class="section-indicator active"></div>
+        <div class="section-indicator active"></div>
+        <div class="section-indicator"></div>
+    </div>
+    <!-- main -->
+    <span type="" class="back-button"></span>
+    <div class="flex-cont padding-bottom-5 u-container-lg">
+        <div class="add-therapist-bg">
+            <div class="logo-top">
+                <img src="../icons/avatar.png" class="img-globe" alt="">
+            </div>
+            <div class="merchant-heading">
+                <h1 class="heading">Add Therapists</h1>
+                <p class="text">Please add the therapists and the services they perform at your salon</p>
+            </div>
+            <form action="">
+                <div class="add-therapist">
+                    <div class="add-therapist-heading">
+                        <h1>Therapist 1</h1>
+                        <img src="../icons/carret-up.png" alt="">
+                    </div>
+                    <div class="upload-logo-photo">
+                        <div class="upload-logo">
+                            <img src="../imgs/add-therapist.png" alt="">
+                        </div>
+                        <input type="file" id="file" hidden>
+                        <label for="file" class="button btn-upload-logo">Upload Photo</label>
+                    </div>
+                    <div class="notification-manager therapist-availbility margin-top-5">
+                        <h1 class="heading">THERAPIST AVAILABILITY</h1>
+                        <span class="toggle-check active"></span>
+                    </div>
+                    <div class="add-therapist-form">
+                        <div class="u-form-group">
+                            <label for="name">Gender</label>
+                            <div class="toggle">
+                                <input type="radio" name="radio" id="male" checked="checked" />
+                                <label for="male">Male</label>
+                                <input type="radio" name="radio" id="female" />
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                        <div class="u-form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" class="u-form-control border-radius-14" value="Nicole Watkins">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" class="u-form-control border-radius-14" value="nicolewatkins@healingtouch.ae">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="phone">ROLE</label>
+                            <select class="u-form-control border-radius-14">
+                  <option value="Assistant Manager">Assistant Manager</option>
+                  <option value="Assistant Manager">Assistant Manager</option>
+                  <option value="Assistant Manager">Assistant Manager</option>
+                </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-new-container text-align-center">
+                    <button class="button new-theraspist primary-bg flex-cont mr-ml-auto"> <img src="../icons/add.png" alt=""></button>
+                    <h2 class="text-align-center">Add new therapist</h2>
+                </div>
+                <div class="u-form-group text-align-center">
+                    <!-- disabled attribute -->
+                    <a href="./select-services.html"><button type="button" class="button next-button uppercase" >NEXT</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

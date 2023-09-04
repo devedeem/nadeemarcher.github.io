@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <title>Add Therapist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" /> -->
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="add-service-popup popup-bg">
+        <div class="form-bg border-radius-30">
+            <span class="btn-close"></span>
+            <h1 class="text-align-center add-service-heading u-text-upper font-semibold">Edit Therapist</h1>
+            <div class="line"></div>
+            <form action="" class="add-service-form">
+                <div class="u-group-holder mr-ml-auto">
+                    <div class="upload-logo-photo">
+                        <div class="upload-logo">
+                            <img src="../imgs/add-therapist.png" alt="">
+                        </div>
+                        <input type="file" id="file" hidden="">
+                        <label for="file" class="button btn-upload-logo">Upload Photo</label>
+                    </div>
+                    <div class="add-therapist-form">
+                        <div class="u-form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" class="u-form-control border-radius-14" value="Nicole Watkins">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" class="u-form-control border-radius-14" value="nicolewatkins@healingtouch.ae">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="phone">ROLE</label>
+                            <select class="u-form-control border-radius-14">
+                                    <option value="Assistant Manager">Assistant Manager</option>
+                                    <option value="Assistant Manager">Assistant Manager</option>
+                                    <option value="Assistant Manager">Assistant Manager</option>
+                                </select>
+                        </div>
+                        <div class="u-form-group">
+                            <label for="phone">status</label>
+                            <select class="u-form-control border-radius-14">
+                                    <option value="Active">Active</option>
+                                    <option value="Inactive">Inactive</option>
+                                </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="text-align-center  padding-top-4 padding-bottom-4">
+                    <button class="border-radius-14 button u-text-upper">Cancel</button>
+                    <button class="border-radius-14 button u-text-upper active">Add Therapist</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <title>Add Extra Guest Info</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" /> -->
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="add-service-popup popup-bg">
+        <div class="form-bg border-radius-30">
+            <span class="btn-close"></span>
+            <div class="merchant-heading">
+                <h1 class="heading">ADD EXTRA GUEST INFO</h1>
+                <p class="text">Please add your guests info below</p>
+            </div>
+            <form action="">
+                <div class="add-guest-info">
+                    <div class="add-therapist-heading">
+                        <h1 class="u-text-upper">GUEST 1</h1>
+                        <img src="../icons/carret-up.png" alt="">
+                    </div>
+                    <div class="upload-logo-photo">
+                        <div class="upload-logo">
+                            <img src="../imgs/add-therapist.png" alt="">
+                        </div>
+                        <input type="file" id="file" hidden="">
+                        <label for="file" class="button btn-upload-logo">Upload Photo</label>
+                    </div>
+
+                    <div class="add-therapist-form">
+
+                        <div class="u-form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" class="u-form-control border-radius-14" value="Nicole Watkins">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" class="u-form-control border-radius-14" value="012 345 678 9">
+                        </div>
+                        <div class="u-form-group">
+                            <label for="name">Gender</label>
+                            <div class="toggle">
+                                <input type="radio" name="radio" id="male" checked="checked">
+                                <label for="male">Male</label>
+                                <input type="radio" name="radio" id="female">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-align-center">
+                        <h1 class="heading u-text-upper">Add new guest</h1>
+                    </div>
+                </div>
+
+                <div class="u-form-group text-align-center margin-top-5 padding-bottom-4">
+                    <!-- disabled attribute -->
+                    <button type="button" class="button next-button uppercase">ADD GUEST</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

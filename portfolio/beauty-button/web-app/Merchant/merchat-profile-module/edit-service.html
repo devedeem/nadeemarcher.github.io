@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Service</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" /> -->
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="add-service-popup popup-bg">
+        <div class="form-bg border-radius-30">
+            <a href="./select-services.html"><span class="btn-close"></span></a>
+            <h1 class="text-align-center add-service-heading font-semibold u-text-upper">Edit Service</h1>
+            <div class="line"></div>
+            <form action="" class="add-service-form">
+                <div class="u-group-holder mr-ml-auto">
+                    <div class="u-form-group">
+                        <label for="name">TITLE</label>
+                        <input type="text" id="name" name="name" class="u-form-control border-radius-14" value="Blow Dry">
+                    </div>
+                    <div class="u-form-group ">
+                        <label for="message">DESCRIPTION</label>
+                        <textarea rows="" colums="" id="message" class="des-height u-form-control border-radius-14">One of our stylists will blow dry and style your hair. </textarea>
+                    </div>
+                    <div class="u-row">
+                        <div class="u-col">
+                            <label for="phone">DURATION</label>
+                            <select class="u-form-control border-radius-14">
+                  <option value="Assistant Manager">30 mins</option>
+                  <option value="Assistant Manager">25 mins</option>
+                  <option value="Assistant Manager">20 mins</option>
+                </select>
+                        </div>
+                        <div class="u-col">
+                            <label for="phone">PRICE</label>
+                            <div class="price-control ">
+                                <input type="text" class="price u-form-control" value="25">
+                                <select class=" u-form-control currency text-align-center">
+                    <option value="Assistant Manager">AED</option>
+                    <option value="Assistant Manager">USD</option>
+                    <option value="Assistant Manager">EUO</option>
+                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="u-row">
+                        <div class="u-col">
+                            <label for="phone">CLASS SIZE</label>
+                            <select class="u-form-control border-radius-14">
+                  <option value="Assistant Manager">1 person</option>
+                  <option value="Assistant Manager">2 person</option>
+                  <option value="Assistant Manager">3 person</option>
+                </select>
+                        </div>
+                        <div class="u-col">
+                            <div class="price-control ">
+                                <label for="phone">CONFIRM BOOKING?</label>
+                                <select class="u-form-control border-radius-14">
+                    <option value="Assistant Manager">Yes</option>
+                    <option value="Assistant Manager">No</option>
+                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="u-form-group">
+                        <label for="name">Gender</label>
+                        <div class="toggle ">
+                            <input type="radio" name="radio" id="male" checked="checked">
+                            <label for="male" class="radio-1">Male</label>
+                            <input type="radio" name="radio" id="female">
+                            <label for="female" class="radio-2">Female</label>
+                            <input type="radio" name="radio" id="both">
+                            <label for="both" class="radio-3">Both</label>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="u-form-group">
+                        <label for="name">SERVICE AVAILABILITY</label>
+                        <div class="toggle add-service-toggle">
+                            <input type="radio" name="radio-availibilty" id="salon" checked="checked">
+                            <label for="salon" class="radio-1">AT SALON</label>
+                            <input type="radio" name="radio-availibilty" id="home">
+                            <label for="home" class="radio-2">AT HOME</label>
+                            <input type="radio" name="radio-availibilty" id="both-2">
+                            <label for="both-2" class="radio-3">Both</label>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="u-row">
+                        <div class="u-col">
+                            <label for="phone">CANCELLATION TIME</label>
+                            <select class="u-form-control border-radius-14">
+<option value="Assistant Manager">24hrs</option>
+<option value="Assistant Manager">25 mins</option>
+<option value="Assistant Manager">20 mins</option>
+</select>
+                        </div>
+                        <div class="u-col">
+                            <label for="phone">PERCENTAGE</label>
+                            <div class="price-control ">
+                                <input type="text" class="price u-form-control" value="25">
+                                <select class=" u-form-control currency text-align-center">
+<option value="Assistant Manager">%</option>
+<option value="Assistant Manager">USD</option>
+<option value="Assistant Manager">EUO</option>
+</select>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="u-row">
+                        <div class="u-col">
+                            <label for="phone">RESCHEDULE TIME</label>
+                            <select class="u-form-control border-radius-14">
+<option value="Assistant Manager">24hrs</option>
+<option value="Assistant Manager">25 mins</option>
+<option value="Assistant Manager">20 mins</option>
+</select>
+                        </div>
+                        <div class="u-col">
+                            <label for="phone">PERCENTAGE</label>
+                            <div class="price-control ">
+                                <input type="text" class="price u-form-control" value="25">
+                                <select class=" u-form-control currency text-align-center">
+<option value="Assistant Manager">%</option>
+<option value="Assistant Manager">USD</option>
+<option value="Assistant Manager">EUO</option>
+</select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="u-form-group">
+                        <label>STAFF</label>
+                        <!-- use active class for select -->
+                        <div class="staff-holder">
+                            <div class="profile-container active">
+                                <span class="img-container "><span class="overlay"></span><img src="../imgs/add-therapist.png" alt=""></span>
+                                <span class="name-holder">Nicole Watkins</span>
+                            </div>
+                            <div class="profile-container  margin-left-3">
+                                <span class="img-container "><span class="overlay"></span><img src="../imgs/add-therapist.png" alt=""></span>
+                                <span class="name-holder">Lucille Turner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="text-align-center  padding-top-4 padding-bottom-4">
+                    <button class="border-radius-14 button uppercase">Cancel</button>
+                    <button class="border-radius-14 button uppercase active">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

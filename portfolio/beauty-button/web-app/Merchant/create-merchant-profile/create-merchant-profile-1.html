@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create Merchant Profile</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="../imgs/fev-icon-dark.jpeg" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body dir="rtl" class="rtl">
+    <header>
+      <nav class="section-indicators u-main-nav">
+        <div class="u-nav-container">
+          <!-- hamburger-active -->
+          <a href="../pages/menu.html">
+            <div class="">
+              <div class="merchant-hamburger merchant-hamburger-rotate"></div>
+            </div>
+          </a>
+        </div>
+        <a href="" class="u-nav-brand"><img src="../imgs/logo.png" alt="" /></a>
+      </nav>
+    </header>
+    <div class="section-indicators flex-cont">
+      <div class="section-indicator active"></div>
+      <div class="section-indicator"></div>
+      <div class="section-indicator"></div>
+    </div>
+
+    <div class="flex-cont padding-top-5 padding-bottom-5 u-container-lg">
+      <div class="create-merchant-profile">
+        <div class="logo-top">
+          <img src="../icons/globe.png" class="img-globe" alt="" />
+        </div>
+        <div class="merchant-heading">
+          <h1 class="heading">Create Merchant Profile</h1>
+          <p class="text">
+            Please enter some basic information about your business below so
+            customers can find you!
+          </p>
+        </div>
+
+        <form>
+          <div class="text-align-center">
+            <div class="upload-logo-photo banner">
+              <!-- Upload Logo -->
+              <div class="upload-logo">
+                <img src="../imgs/logo-light.png" alt="" />
+              </div>
+              <input type="file" id="file" hidden />
+              <label for="file" class="button btn-upload-logo"
+                >Upload Banner</label
+              >
+            </div>
+            <div class="upload-logo-photo banner">
+              <!-- Upload Banner -->
+              <div class="upload-logo">
+                <img src="../imgs/logo-light.png" alt="" />
+              </div>
+              <input type="file" id="file" hidden />
+              <label for="file" class="button btn-upload-logo"
+                >Upload Logo</label
+              >
+            </div>
+          </div>
+          <div class="section-form-control">
+            <div class="form-partition">
+              <div class="u-form-group">
+                <label for="name">BUSINESS NAME</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="u-form-control border-radius-14"
+                  placeholder="Your business name…"
+                />
+              </div>
+              <div class="u-form-group">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="u-form-control border-radius-14"
+                  placeholder="Your business email…"
+                />
+              </div>
+              <div class="u-form-group">
+                <label for="phone">PHONE NUMBER</label>
+                <input
+                  type="text"
+                  id="phone"
+                  class="u-form-control border-radius-14"
+                  placeholder="Your business phone number…"
+                />
+              </div>
+              <div class="u-form-group location-address">
+                <label for="address">ADDRESS</label>
+                <a href="./confirm-address.html"
+                  ><img
+                    src="../icons/location-sign.png"
+                    class="location-address-icon cursor"
+                    alt=""
+                /></a>
+                <input
+                  type="text"
+                  id="address"
+                  class="u-form-control border-radius-14"
+                  placeholder=" Your business address…"
+                />
+              </div>
+            </div>
+            <div class="form-partition">
+              <div class="u-form-group">
+                <div class="display-inline-block width-49">
+                  <label for="name">START DATE</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="u-form-control border-radius-14"
+                  />
+                </div>
+                <div class="display-inline-block width-49">
+                  <label for="name">END DATE</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="u-form-control border-radius-14"
+                  />
+                </div>
+              </div>
+              <div class="u-form-group">
+                <div class="display-inline-block width-49">
+                  <label for="name">START TIME</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="u-form-control border-radius-14"
+                  />
+                </div>
+                <div class="display-inline-block width-49">
+                  <label for="name">END TIME</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="u-form-control border-radius-14"
+                  />
+                </div>
+              </div>
+              <div class="u-form-group">
+                <label for="message">DESCRIPTION</label>
+                <textarea
+                  rows="6"
+                  colums=""
+                  id="message"
+                  class="u-form-control border-radius-14"
+                  placeholder="Describe your business…"
+                ></textarea>
+                <p class="word-counter">0/140</p>
+              </div>
+            </div>
+          </div>
+          <div class="u-form-group text-align-center padding-top-4">
+            <!-- disabled attribute -->
+            <button type="submit" class="button next-button">NEXT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

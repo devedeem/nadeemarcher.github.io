@@ -1,0 +1,22 @@
+.main-head {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+nav {
+  @include flex(row, space-between, center);
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+  .logo {
+    @include flex(row, flex-start, center);
+    flex: 1 1 22rem;
+    h1 {
+      margin: 2rem;
+      font-family: "Ruhl Medium";
+    }
+  }
+  ul {
+    @include flex(row, space-around, center);
+    flex: 1 1 30rem;
+  }
+}

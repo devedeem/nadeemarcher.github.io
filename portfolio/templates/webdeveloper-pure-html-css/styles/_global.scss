@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Ruhl";
+  src: url("./fonts/FrankRuhlLibre-Regular.ttf");
+}
+@font-face {
+  font-family: "Ruhl Medium";
+  src: url("./fonts/FrankRuhlLibre-Medium.ttf");
+}
+@font-face {
+  font-family: "Vibes";
+  src: url("./fonts/GreatVibes-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ruhl", sans-serif;
+  animation: opening 2s ease-in-out;
+}
+
+h1 {
+  font-size: $header-1;
+  font-family: "Vibes";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: $header-2;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: $header-3;
+}
+
+h4,
+h5 {
+  font-weight: bold;
+  font-size: $header-4;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-weight: 400;
+  font-size: $text;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $gray-text;
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
