@@ -1,0 +1,51 @@
+.webpage-container {
+  /* background: black; */
+  width: 100%;
+  max-height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.webpage-container .img-fluid {
+  transition-duration: 5s;
+  transform: translate3d(0px, 0px, 0px);
+}
+.webpage-container:hover .scroll {
+  transition-duration: 3s;
+}
+
+/*  */
+.macbook-window {
+  border-radius: 1rem;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5); 
+}
+
+.title-bar {
+  position: relative;
+  height: 2rem;
+  background: #e5e5e5;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  z-index: 3;
+}
+
+.buttons {
+  float: left;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+.mac-close{
+    background: red;
+} .mac-minimize{
+    background: yellow;
+} .mac-maximize{
+    background: green;
+}
+.mac-close, .mac-minimize, .mac-maximize {
+  width: 10px;
+  height: 10px;
+  /* background: #888; */
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .macbook-window {
+  max-width: 500px;
+  min-height: 300px;
+  background: #ddd;
+  border-radius: 1rem;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5); 
+}
+
+.title-bar {
+  height: 2rem;
+  background: #ccc;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.buttons {
+  float: left;
+  margin: 0.5rem;
+}
+.close{
+    background: red;
+} .minimize{
+    background: yellow;
+} .maximize{
+    background: green;
+}
+.close, .minimize, .maximize {
+  width: 10px;
+  height: 10px;
+  /* background: #888; */
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.content {
+  padding: 1rem;
+}  
+    </style>
+</head>
+<body>
+    <div class="macbook-window">
+
+        <div class="title-bar">
+          <div class="buttons">
+            <div class="close"></div>
+            <div class="minimize"></div>
+            <div class="maximize"></div>
+          </div>
+          <span>hello</span>
+        </div>
+        
+        <div class="content">
+          <!-- Content goes here -->
+          <img src="../img/projects/apple-ecommerce.png" style="max-width: 100%;">
+        </div>
+        
+      </div>
+</body>
+</html>
